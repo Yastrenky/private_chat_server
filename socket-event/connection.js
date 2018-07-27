@@ -1,3 +1,5 @@
+var sockets = {}
+
 module.exports = function (socket) {
   sockets[socket.id] = socket;
 
